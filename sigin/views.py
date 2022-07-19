@@ -5,3 +5,9 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'home.html')
+
+def signedin(request):
+    return render(request, 'signedin.html')
+
+def kms(request):
+    return render(request, 'kms.html')
